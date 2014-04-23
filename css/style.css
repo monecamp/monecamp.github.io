@@ -1,0 +1,97 @@
+/*
+	Let's Do This
+
+	Main font stacks are Arvo and PT Sans served up by Google Fonts.
+	Usage is as follows:
+
+	h1 { font-family: 'Arvo', Georgia, Times, serif; }
+	p { font-family: 'PT Sans', Helvetica, Arial, sans-serif; }
+
+
+*/
+
+body { background: #fff; font-family: 'PT Sans', Helvetica, Arial, sans-serif; font-size: 100%; }
+
+	h3 { font-family: 'Arvo', Georgia, Times, serif; }
+
+	header {
+		background-color: #13496D;
+		background-image: -webkit-linear-gradient(top, #13496D, #3384BA);
+		background-image: linear-gradient(to bottom, #13496D, #3384BA);
+		color: #fff;
+		min-height: 400px;
+		margin-bottom: 20px;
+		position: relative;
+		overflow: hidden; }
+
+		header div div { text-align: center; }
+
+			header div div img { width: 400px; height: auto; margin-top: 60px; position: relative; z-index: 9000; }
+
+		.logo-fall {
+			position: absolute;
+			top: -500px;
+			-webkit-animation: falling 5s ease-in-out 0 infinite alternate;
+			animation: falling 5s ease-in-out 0 infinite alternate;
+		}
+
+	footer { background: #333; color: #fff; padding: 16px 0; text-align: center; }
+
+		footer p { margin: 0; padding: 0; }
+
+
+
+/*
+	Fun Animations Down Here... FUNIMATIONS
+	All logos here get a unique ID for offseting, scaling and transforming
+*/
+
+#falling1 {
+	left: 50%;
+	margin-left: -300px;
+	-webkit-transform: rotate(10deg);
+	-webkit-animation-delay: 2s;
+}
+
+#falling2 {
+	right: 50%;
+	margin-right: -500px;
+	-webkit-transform: rotate(14deg) scale(2);
+}
+
+#falling3 {
+	left: 50%;
+	-webkit-transform: rotate(-23deg) scale(8);
+	-webkit-animation-duration: 10s;
+}
+
+#falling4 {
+	left: 50%;
+	margin-left: -500px;
+	-webkit-transform: rotate(-8deg) scale(4);
+	-webkit-animation-duration: 4s;
+}
+
+#falling5 {
+	right: 50%;
+	margin-right: -200px;
+	-webkit-transform: rotate(9deg) scale(5);
+	-webkit-animation-duration: 3.5s;
+}
+
+#falling6 {
+	right: 50%;
+	margin-right: -300px;
+	-webkit-transform: rotate(17deg) scale(3);
+	-webkit-animation-duration: 7s;
+}
+
+@-webkit-keyframes falling {
+   from { top: -500px; }
+   to   { top: 800px; }
+}
+
+@keyframes falling {
+   from { top: -500px; }
+   to   { top: 800px; }
+}
