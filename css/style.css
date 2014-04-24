@@ -94,6 +94,10 @@ body { background: #fff; font-family: 'PT Sans', Helvetica, Arial, sans-serif; f
 
 		#schedule h3 {  }
 
+		#schedule h4 { font-size: 1em; font-family: 'PT Sans', Helvetica, Arial, sans-serif; margin-top: -6px; margin-bottom: 2rem; }
+
+		.mc-type { width: 100%; height: auto; margin-bottom: 1rem; }
+
 		#schedule p {  }
 
 		#format a {  }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="92px" height="86px" viewBox="0 0 92 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.1 (7597) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 12</title>
+    <description>Created with Sketch.</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path d="M32.578,1.056 C27.389,1.056 21.292,4.463 18.698,8.812 L2.976,35.173 C0.385,39.521 0.385,46.332 2.978,50.678 L18.698,77.038 C21.292,81.387 27.389,84.795 32.578,84.795 L59.869,84.795 C65.057,84.795 71.154,81.387 73.748,77.038 L89.47,50.678 C92.061,46.331 92.061,39.52 89.47,35.173 L73.748,8.812 C71.154,4.463 65.057,1.056 59.869,1.056 L32.578,1.056 L32.578,1.056 Z M59.869,85.075 L32.578,85.075 C27.3,85.075 21.097,81.607 18.457,77.181 L2.737,50.822 C0.097,46.394 0.095,39.458 2.735,35.03 L18.457,8.669 C21.097,4.242 27.3,0.775 32.578,0.775 L59.869,0.775 C65.147,0.775 71.349,4.243 73.989,8.669 L89.711,35.03 C92.35,39.458 92.35,46.394 89.711,50.822 L73.989,77.181 C71.349,81.607 65.147,85.075 59.869,85.075 L59.869,85.075 Z" id="Fill-12" fill="#556270" sketch:type="MSShapeGroup"></path>
+        <path d="M32.297,84.003 C27.647,84.003 21.94,80.813 19.616,76.915 L3.572,50.012 C1.248,46.114 1.248,39.737 3.571,35.838 L19.616,8.936 C21.94,5.038 27.647,1.848 32.297,1.848 L60.149,1.848 C64.798,1.848 70.506,5.038 72.83,8.936 L88.875,35.838 C91.199,39.737 91.199,46.114 88.875,50.012 L72.83,76.915 C70.506,80.813 64.798,84.003 60.149,84.003 L32.297,84.003" id="Fill-13" fill="#556270" sketch:type="MSShapeGroup"></path>
+        <text id="" sketch:type="MSTextLayer" font-family="FontAwesome" font-size="36" font-weight="normal" fill="#FFFFFF">
+            <tspan x="28" y="57"></tspan>
+        </text>
+    </g>
+</svg>
