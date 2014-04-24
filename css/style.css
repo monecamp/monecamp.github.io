@@ -6,11 +6,14 @@
 
 	h1 { font-family: 'Arvo', Georgia, Times, serif; }
 	p { font-family: 'PT Sans', Helvetica, Arial, sans-serif; }
+	span { font-family: 'Rock Salt', 'cursive'; }
 
 
 */
 
 body { background: #fff; font-family: 'PT Sans', Helvetica, Arial, sans-serif; font-size: 100%; }
+
+	p { font-size: 1.2rem; }
 
 	h3 { font-family: 'Arvo', Georgia, Times, serif; }
 
@@ -19,14 +22,12 @@ body { background: #fff; font-family: 'PT Sans', Helvetica, Arial, sans-serif; f
 		background-image: -webkit-linear-gradient(top, #13496D, #3384BA);
 		background-image: linear-gradient(to bottom, #13496D, #3384BA);
 		color: #fff;
-		min-height: 400px;
-		margin-bottom: 20px;
 		position: relative;
 		overflow: hidden; }
 
 		header div div { text-align: center; }
 
-			header div div img { width: 400px; height: auto; margin-top: 60px; position: relative; z-index: 9000; }
+			header div div img { width: 400px; height: auto; margin: 60px 0; position: relative; z-index: 9000; }
 
 		.logo-fall {
 			position: absolute;
@@ -34,6 +35,36 @@ body { background: #fff; font-family: 'PT Sans', Helvetica, Arial, sans-serif; f
 			-webkit-animation: falling 5s ease-in-out 0 infinite alternate;
 			animation: falling 5s ease-in-out 0 infinite alternate;
 		}
+
+	#what { background: #333; padding: 4rem 0; }
+
+		#what p, #what h3 { color: #fff; }
+
+		#what p:last-child { margin-bottom: 0; }
+
+		#calendar { position: relative; }
+
+			#calendar p {
+				position: absolute;
+				left: 0;
+				right: 0;
+				text-align: center;
+				color: #fff;
+				font-family: 'Rock Salt', 'cursive';
+				-webkit-transform: rotate(-19deg);
+				-ms-transform: rotate(-19deg);
+				transform: rotate(-19deg);
+			}
+
+			#curl { position: absolute; left: -4px; bottom: -6px; z-index: 9000; }
+
+			#weekday { top: 50px; font-size: 2rem; }
+
+			#date { top: 90px; font-size: 5rem; margin-left: -20px; }
+
+	#format {  }
+
+	#schedule {  }
 
 	footer { background: #333; color: #fff; padding: 16px 0; text-align: center; }
 
