@@ -36,11 +36,9 @@ body { background: #fff; font-family: 'PT Sans', Helvetica, Arial, sans-serif; f
 			animation: falling 5s ease-in-out 0 infinite alternate;
 		}
 
-	#what { background: #333; padding: 4rem 0; }
+	#what { background: #556270; padding: 4rem 0; }
 
 		#what p, #what h3 { color: #fff; }
-
-		#what p:last-child { margin-bottom: 0; }
 
 		#calendar { position: relative; }
 
@@ -58,13 +56,31 @@ body { background: #fff; font-family: 'PT Sans', Helvetica, Arial, sans-serif; f
 
 			#curl { position: absolute; left: -4px; bottom: -6px; z-index: 9000; }
 
-			#weekday { top: 50px; font-size: 2rem; }
+			#weekday { top: 60px; font-size: 2rem; }
 
-			#date { top: 90px; font-size: 5rem; margin-left: -20px; }
+			#date { top: 100px; font-size: 5rem; }
 
-	#format {  }
+	#format { background: #C44D58; padding: 4em 0; text-align: center; }
 
-	#schedule {  }
+		#format:before { display: inline-block; text-align: center; content: url('../img/fire.svg'); width: 100px; }
+
+		#format h3 { color: #fff; }
+
+		#format p { color: #fff; }
+
+		#format a { color: #C7F464; }
+
+		#format a:hover { text-decoration: underline; }
+
+	#schedule { background: #fff; padding: 4em 0; text-align: center; }
+
+		#schedule:before { display: inline-block; text-align: center; content: url('../img/signs.svg'); width: 100px; }
+
+		#schedule h3 {  }
+
+		#schedule p {  }
+
+		#format a {  }
 
 	footer { background: #333; color: #fff; padding: 16px 0; text-align: center; }
 

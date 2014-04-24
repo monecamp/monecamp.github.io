@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="333px" height="333px" viewBox="0 0 333 333" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="331px" height="333px" viewBox="0 0 331 333" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.0.1 (7597) - http://www.bohemiancoding.com/sketch -->
-    <title>Rectangle 3</title>
+    <title>Rectangle 6</title>
     <description>Created with Sketch.</description>
     <defs>
-        <path id="path-1" d="M2.47753906,0 L0,252.078125 L81.2080078,333 L333,333 L333,0 L2.47753906,0 Z"></path>
+        <path id="path-1" d="M0,0 L0,269.615234 L63.9902344,333 L331,333 L331,0 L0,0 Z"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.245 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M0,269.307617 L0,269.615234 L63.9902344,333 C64,333 61.6503906,315.790039 61.6503906,303.234375 C61.6503906,294.456706 64,269 64,269 C64,269 46.0625,270.996094 37.21875,270.996094 C24.7291667,270.996094 0,269 0,269 L0,269.307617 Z" id="path-3"></path>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Rectangle-3">
-            <use fill="#C54B4A" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+        <g id="Rectangle-6">
+            <use fill="#C44D58" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
             <use fill-opacity="0.0299999993" fill="none" xlink:href="#path-1"></use>
+        </g>
+        <g id="Rectangle-4" filter="url(#filter-2)">
+            <use fill="#7E3138" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
+            <use fill-opacity="0.0299999993" fill="none" xlink:href="#path-3"></use>
         </g>
     </g>
 </svg>
