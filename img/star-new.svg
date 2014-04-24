@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" width="107px" height="101px" viewBox="0 0 107 101" version="1.1">
+    <style>
+	.style0{
+		fill:	none;
+		fill-rule:	evenodd;
+	}
+	.style1{
+		fill:	#FFFFFF;
+	}
+</style><!-- Generator: Sketch 3.0.1 (7597) - http://www.bohemiancoding.com/sketch -->
+    <title>Star 1</title>
+    <description>Created with Sketch.</description>
+    <defs/>
+    <g id="Page-1" sketch:type="MSPage" class="style0">
+        <polygon id="Star-1" sketch:type="MSShapeGroup" points="53.5,83.2 20.9,100.4 27.1,64.1 0.7,38.3 37.2,33 53.5,0 69.8,33 106.3,38.3 79.9,64.1 86.1,100.4" class="style1"/>
+    </g>
+</svg>

@@ -72,13 +72,15 @@ body { background: #fff; font-family: 'PT Sans', Helvetica, Arial, sans-serif; f
 
 		#index-cards { position: relative; height: 330px; margin: 1rem 0 0 0; padding: 0; }
 
-			#index-cards li { display: block; text-align: left; width: 100%; max-width: 470px; min-height: 330px; list-style: none; position: absolute; box-shadow: 0 0 2px rgba(0,0,0,.5); padding: 1rem 2rem; }
+			#index-cards li { position: relative; display: block; text-align: left; width: 100%; max-width: 470px; min-height: 330px; list-style: none; position: absolute; box-shadow: 0 0 2px rgba(0,0,0,.5); padding: 1rem 2rem; }
 
 				#index-cards li p { line-height: 2; color: #111; font-size: 1em; font-family: 'Rock Salt', 'cursive'; }
 
 				.blue { background: #4ECDC4; -webkit-transform: rotate(3deg); transform: rotate(3deg); }
 				.yellow { background: #FCE00E; -webkit-transform: rotate(-2deg); transform: rotate(-2deg); }
 				.green { background: #C7F464; }
+
+				.star { position: absolute; width: 50px; }
 
 		#format a { color: #C7F464; }
 
