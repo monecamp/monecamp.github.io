@@ -106,6 +106,30 @@ body { background: #fff; font-family: 'PT Sans', Helvetica, Arial, sans-serif; f
 
 		footer p { margin: 0; padding: 0; }
 
+	#hurryUp {
+		background: #fdf12d url('../img/stripe.png') 0 280px repeat-x;
+		border-radius: 10px;
+		padding: 0 0 60px 0;
+		z-index: 99999;
+	}
+
+		#hurryUp h2 {
+			background: #000;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			color: #fdf12d;
+			text-transform: uppercase;
+			text-align: center;
+			font-weight: bold;
+			font-size: 64px;
+			letter-spacing: 10px;
+			margin-bottom: 20px; }
+
+		#hurryUp p {
+			margin: 0 40px;
+			text-align: center;
+			font-size: 24px;
+		}
 
 
 /*

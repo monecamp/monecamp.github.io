@@ -134,10 +134,26 @@
         </div>
     </footer>
 
+    <div id="hurryUp" class="reveal-modal small" data-reveal>
+        <h2>Warning</h2>
+        <p>Voting ends on Wednesday at noon. Please make sure you've voted on the presentations you'd like to see so we can compile the schedule accordingly.</p>
+        <a class="close-reveal-modal">&#215;</a>
+    </div>
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
+        var modalCheck = localStorage.getItem('sawModal');
+
         $(document).foundation();
+
+        if(modalCheck != 'yep') {
+            $('#hurryUp').foundation('reveal', 'open');
+        }
+
+        $(document).on('closed', '[data-reveal]', function() {
+            localStorage.setItem('sawModal', 'yep');
+        });
     </script>
   </body>
 </html>
