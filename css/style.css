@@ -92,7 +92,7 @@ body { background: #fff; font-family: 'PT Sans', Helvetica, Arial, sans-serif; f
 
 		#schedule:before { display: inline-block; text-align: center; content: url('../img/signs.svg'); width: 100px; }
 
-		#schedule table { margin-bottom: 40px; }
+		#schedule table {  }
 
 			#schedule table tr th { width: 125px; background: #13496D; color: #fff; text-align: center; }
 
