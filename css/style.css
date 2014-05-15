@@ -92,9 +92,17 @@ body { background: #fff; font-family: 'PT Sans', Helvetica, Arial, sans-serif; f
 
 		#schedule:before { display: inline-block; text-align: center; content: url('../img/signs.svg'); width: 100px; }
 
+		#schedule table { margin-bottom: 40px; }
+
+			#schedule table tr th { width: 125px; background: #13496D; color: #fff; text-align: center; }
+
+				td.room { background: #13496D; color: #fff; }
+
 		#schedule h3 {  }
 
 		#schedule h4 { font-size: 1em; font-family: 'PT Sans', Helvetica, Arial, sans-serif; margin-top: -6px; margin-bottom: 2rem; }
+
+		#schedule #special { font-size: 1.6em; }
 
 		.mc-type { width: 100%; height: auto; margin-bottom: 1rem; }
 
