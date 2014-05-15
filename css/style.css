@@ -96,7 +96,7 @@ body { background: #fff; font-family: 'PT Sans', Helvetica, Arial, sans-serif; f
 
 			#schedule table tr th { width: 125px; background: #13496D; color: #fff; text-align: center; }
 
-				td.room { background: #13496D; color: #fff; }
+				td.time { background: #13496D; color: #fff; }
 
 		#schedule h3 {  }
 
